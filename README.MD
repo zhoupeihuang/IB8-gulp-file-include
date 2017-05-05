@@ -21,7 +21,7 @@ npm test 或者 gulp -w
 
 ### 项目目录
 
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/zhoupeihuang/IB8-gulp-file-include/blob/master/images/QQ%E6%88%AA%E5%9B%BE20170505163341.png?raw=true)
 
 ### 项目使用
 
