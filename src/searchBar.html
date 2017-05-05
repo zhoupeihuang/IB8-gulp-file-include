@@ -1,0 +1,23 @@
+<section id="serachBox">
+	<div class="searchBox">
+		<dl>
+			<dd class="searchActive">综合排序</dd>
+			<dd>按欧美排序</dd>
+			<dd>按黄金点差</dd>
+			<dd>按白银点差</dd>
+			<dd>按安全评级</dd>
+			<dd>按安杠排序</dd>
+			<dt>
+		<input type="text" name="" id="" value="" />
+		<span><img src="images/ib8_09.jpg"/></span>
+	</dt>
+		</dl>
+	</div>
+	<script>
+		$(function() {
+			$(".searchBox>dl>dd").click(function() {
+				$(this).addClass("searchActive").siblings().removeClass("searchActive")
+			})
+		})
+	</script>
+</section>

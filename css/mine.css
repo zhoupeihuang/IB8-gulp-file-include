@@ -1,0 +1,116 @@
+/*风险提示*/
+.myBox{
+	min-height: 500px;
+	position: relative;
+	border: 1px #dddede solid;
+	margin: 22px auto 0px auto;
+	background-color: #fff;	
+}
+.riskTipBox{
+	background-color: #fff;
+	margin-top: 15px;
+}
+.riskTipTitle{
+	height: 60px;
+	line-height: 60px;
+	background-image:url(../images/ib8_tips.jpg);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+	padding-left: 45px;
+}
+.riskTipContent{
+	padding: 40px 30px 25px;
+}
+.riskTipContent span{
+	font-weight: 100;
+    font-size: 30px;
+    line-height: 1.3;
+    color: #333;
+}
+.riskTipContent p{
+	text-indent: 26px;
+	line-height: 2.2;
+}
+.riskSummary{
+	margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+    text-indent: 0;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}
+.lead{
+	font-size: 18px;
+    text-indent: 0;
+}
+
+.indent {
+    text-indent: 0;
+}
+.signature {
+    font-size: 16px;
+    line-height: 48px;
+    text-indent: 0;
+}
+
+
+/*公告*/
+.noticeTitle{
+	height: 60px;
+	line-height: 60px;
+	background-image:url(../images/ib8_bg.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+	padding-left: 45px;
+}
+.noticeContent{
+	padding: 40px 30px 25px;
+}
+.noticeList{
+	height: 120px;
+	
+}
+.noticeList span{
+	color: #0065ff;
+	font-size: 16px;
+	line-height: 2.5;
+	
+}
+.noticeCon{
+	height: 80px;
+	text-indent: 30px;
+	line-height: 2;
+	color: #999999;
+}
+.noticeConLeft{
+	width: 75%;
+	float: left;
+}
+.noticeConRight{
+	width: 25%;
+	float: right;
+	text-align: right;
+}
+.noticeDesBtn{
+	width: 200px;
+	height: 50px;
+	background-color: #ff6700;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+}
+.noticeTime{
+	color: #c2c2c2;
+	font-size: 16px;
+}

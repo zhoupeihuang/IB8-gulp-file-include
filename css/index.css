@@ -1,0 +1,1219 @@
+.bgf7 {
+	background-color: #f7f7f7;
+}
+
+.blr {
+	border-right: 1px red dashed;
+	border-left: 1px red dashed;
+}
+
+.navhead {
+	height: 30px;
+	width: 100%;
+	position: relative;
+	font-size: 12px;
+	color: #999;
+	line-height: 30px;
+}
+
+.mainbox {
+	position: relative;
+	margin: 0 auto;
+	width: 1180px;
+	min-height: 30px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.headBox {
+	height: 100px;
+	background-color: #fff;
+	width: 100%;
+}
+
+.leftHeadBox {
+	float: left;
+	height: 72px;
+	width: 212px;
+	margin-top: 14px;
+	position: relative;
+}
+
+.leftHeadBox img {
+	height: 72px;
+	width: auto;
+}
+
+.rightHeadBox {
+	float: right;
+	height: 22px;
+	width: 500px;
+	/*border: 1px red dashed;*/
+	margin-top: 44px;
+	position: relative;
+}
+
+.rightHeadBox>ul>li {
+	width: 110px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 22px;
+	color: #333;
+	text-align: center;
+	float: left;
+}
+
+.rightHeadBox>ul>li>a {
+	color: #333;
+	text-align: center;
+}
+
+.rightHeadBox>ul>li>a:hover {
+	text-decoration: underline;
+}
+
+
+/*.rightHeadBox>ul>li:hover{
+	border-bottom: 1px #333 solid;
+}*/
+
+
+/*--------------------------------------------------------*/
+
+.slideBox {
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+
+.slideBox img {
+	width: 100%;
+	height: 350px;
+}
+
+
+/*-------------------------------------------------------*/
+
+.breadCrumbBox {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	height: 16px;
+	position: relative;
+	margin: 0 auto;
+	color: #999999;
+	font-size: 16px;
+	width: 1180px;
+}
+
+.breadCrumbBox>a {
+	color: #0067ff;
+}
+
+.breadCrumbBox>a.breaNow {
+	color: #666;
+	cursor: default;
+}
+
+
+/*-------------------------------------------------------*/
+
+.searchBox {
+	height: 50px;
+	line-height: 50px;
+	width: 1180px;
+	position: relative;
+	margin: 0 auto;
+	border: 1px #dedede solid;
+	background-color: #fff;
+}
+
+.searchBox>dl>dd {
+	width: 140px;
+	text-align: center;
+	height: 50px;
+	float: left;
+	color: #666;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.searchActive {
+	background-image: url(../images/ib8_12.jpg);
+	background-position: 30px 23px;
+	background-repeat: no-repeat;
+	background-size: 5px;
+	color: #ff6700 !important;
+}
+
+.searchBox>dl>dt {
+	width: 210px;
+	margin-right: 12px;
+	margin-top: 10px;
+	border-left: 1px red solid;
+	float: right;
+	height: 30px;
+	border: 1px #0067ff solid;
+	border-radius: 20px;
+	position: relative;
+}
+
+.searchBox>dl>dt input {
+	display: inline-block;
+	position: absolute;
+	left: 14px;
+	top: 1px;
+	height: 26px;
+	border: none;
+}
+
+.searchBox>dl>dt span {
+	display: inline-block;
+	position: absolute;
+	right: 14px;
+	top: 1px;
+	height: 26px;
+	line-height: 24px;
+}
+
+
+/*-----------------------------------------------------------*/
+
+.tuijianBox {
+	height: 288px;
+	position: relative;
+	border: 1px #dddede solid;
+	margin: 22px auto 0px auto;
+	background-color: #fff;
+}
+
+.lefttopBar,
+.leftTJBox,
+.rightTJBox {
+	position: absolute;
+}
+
+.lefttopBar {
+	left: -2px;
+	top: -2px;
+	background-image: url(../images/ib8_17.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 75px;
+	width: 75px;
+	height: 75px;
+}
+
+.leftTJBox {
+	width: 372px;
+	height: 288px;
+	border-right: 1px #ececec solid;
+	left: 0px;
+	top: 0px;
+}
+
+.leftTJBox span {
+	position: absolute;
+	width: 200px;
+	margin-left: 50%;
+	left: -100px;
+	/*border: 1px #ccc solid;*/
+	text-align: center;
+}
+
+.leftTJBox .ltj1 {
+	height: 30px;
+	top: 30px;
+}
+
+.leftTJBox .ltj2 {
+	height: 22px;
+	line-height: 22px;
+	top: 84px;
+	color: #0067FF;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.leftTJBox .ltj3 {
+	height: 50px;
+	line-height: 50px;
+	background-color: #f9f9f9;
+	border: 1px #e0e0e0 solid;
+	border-radius: 3px;
+	color: #0067FF;
+	top: 118px;
+	cursor: pointer;
+}
+
+.leftTJBox .ltj4 {
+	height: 50px;
+	line-height: 50px;
+	background-color: #FF6700;
+	border: 1px #FF6700 solid;
+	border-radius: 3px;
+	color: #fff;
+	top: 178px;
+	cursor: pointer;
+}
+
+.leftTJBox .ltj5 {
+	height: 22px;
+	line-height: 22px;
+	bottom: 28px;
+}
+
+.leftTJBox .ltj5 img {
+	margin-top: -3px;
+}
+
+
+/*----rightTJ-----*/
+
+.rightTJBox {
+	width: 806px;
+	height: 288px;
+	right: 0px;
+	top: 0px
+}
+
+.rtj1,
+.rtj2,
+.rtj3,
+.rtj4 {
+	position: absolute;
+	width: 120px;
+	top: 30px;
+	border: 1px #ececec solid;
+	text-align: center;
+	color: #666;
+	font-size: 16px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #fafafa;
+}
+
+.rtj1 {
+	left: 50px;
+}
+
+.rtj2 {
+	left: 244px;
+}
+
+.rtj3 {
+	right: 250px;
+}
+
+.rtj4 {
+	right: 55px;
+}
+
+.rtj1_1,
+.rtj2_1,
+.rtj3_1,
+.rtj4_1 {
+	position: absolute;
+	width: 120px;
+	top: 59px;
+	border: 1px #ececec solid;
+	border-top: 1px #eee solid;
+	text-align: center;
+	color: #666;
+	font-size: 20px;
+	height: 42px;
+	line-height: 42px;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+.rtj1_1 {
+	left: 50px;
+}
+
+.rtj2_1 {
+	left: 244px;
+}
+
+.rtj3_1 {
+	right: 250px;
+}
+
+.rtj4_1 {
+	right: 55px;
+}
+
+.rtj5,
+.rtj6,
+.rtj7,
+.rtj8 {
+	position: absolute;
+	width: 80px;
+	left: 50px;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+}
+
+.rtj5 {
+	top: 122px;
+}
+
+.rtj6 {
+	top: 155px;
+}
+
+.rtj7 {
+	top: 185px;
+}
+
+.rtj8 {
+	top: 215px;
+}
+
+.rtj9,
+.rtj10,
+.rtj11,
+.rtj12 {
+	position: absolute;
+	width: 630px;
+	left: 138px;
+	text-align: left;
+	color: #666;
+	font-size: 16px;
+}
+
+.rtj9 {
+	top: 122px;
+}
+
+.rtj10 {
+	top: 155px;
+}
+
+.rtj11 {
+	top: 185px;
+	height: 16px;
+}
+
+.rtj12 {
+	top: 215px;
+}
+
+.startLine {
+	width: 80px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	background-image: url(../images/ib8_219.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-size: 16px 16px;
+}
+
+.startLine>.startNum {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 80px;
+	height: 16px;
+	background-image: url(../images/ib8_29.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-size: 16px 16px;
+}
+
+.startFAQ {
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/ib8_31.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	position: relative;
+	display: inline-block;
+}
+
+
+/*-----------------------------------------------------------*/
+
+.footerBox {
+	background-color: #1d2331;
+	height: 347px;
+	position: relative;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.footerFirstBox {
+	height: 166px;
+	top: 45px;
+	bottom: 54px;
+	position: absolute;
+	margin-left: 50%;
+	left: -590px;
+	width: 1180px;
+}
+
+.footerFirstBox ul li {
+	float: left;
+	display: inline-block;
+	height: 166px;
+}
+
+.footerFirstBox ul li:nth-child(1) {
+	width: 300px;
+	line-height: 166px;
+	border-right: 1px #49505A solid;
+	text-align: center;
+}
+
+.footerFirstBox ul li:nth-child(2) {
+	width: 616px;
+	border-right: 1px #49505A solid;
+}
+
+.footerFirstBox ul li:nth-child(3) {
+	width: 260px;
+}
+
+
+/*---------center---------*/
+
+.ffb1,
+.ffb2,
+.ffb3 {
+	text-align: left;
+	margin-left: 50px;
+}
+
+.ffb1 {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.ffb2 {
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #666;
+	margin-top: 30px;
+}
+
+.ffb2 a {
+	font-size: 12px;
+	color: #666;
+	margin-right: 20px;
+}
+
+.ffb3 {
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+
+.ffb3 img,
+.ffb3 a {
+	margin-right: 20px;
+}
+
+
+/*---------right---------*/
+
+.ffd1,
+.ffd2,
+.ffd3,
+.ffd4 {
+	width: 180px;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.ffd1 {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.ffd2 {
+	height: 20px;
+	line-height: 20px;
+	font-size: 20px;
+	color: #1f93ff;
+	margin-top: 10px;
+}
+
+.ffd3 {
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #666;
+	margin-top: 10px;
+}
+
+.ffd4 {
+	height: 26px;
+	width: 86px;
+	background-color: #3d4351;
+	line-height: 26px;
+	font-size: 14px;
+	color: #666;
+	margin-top: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.footerLastBox {
+	height: 40px;
+	width: 1180px;
+	padding: 20px 0 15px 0;
+	position: absolute;
+	margin-left: 50%;
+	left: -590px;
+	top: 262px;
+	color: #49505A;
+	font-size: 14px;
+	text-align: center;
+	border-top: 1px #49505a solid;
+}
+
+
+/*--------------------------------------*/
+
+.pagingBox {
+	height: 40px;
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 34px;
+	margin-bottom: 34px;
+	position: relative;
+}
+
+.pagingMain {
+	width: 500px;
+	float: right;
+}
+
+.pageActive {
+	background-color: #0067ff !important;
+	border: 1px #ccc solid !important;
+	color: #fff !important;
+}
+
+.pagingMain span {
+	border: 1px #dbdbdb solid;
+	min-width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #fff;
+	display: inline-block;
+	color: #333;
+}
+
+.prevPage,
+.nextPage {
+	padding: 0 10px;
+}
+
+
+/*----------------风险提示----------------*/
+
+.myBox {
+	min-height: 500px;
+	position: relative;
+	border: 1px #dddede solid;
+	margin: 22px auto 0px auto;
+	background-color: #fff;
+}
+
+.riskTipBox {
+	background-color: #fff;
+	margin-top: 15px;
+}
+
+.riskTipTitle {
+	height: 60px;
+	line-height: 60px;
+	background-image: url(../images/ib8_tips.jpg);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+	padding-left: 45px;
+}
+
+.riskTipContent {
+	padding: 40px 30px 25px;
+}
+
+.riskTipContent span {
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 1.3;
+	color: #333;
+}
+
+.riskTipContent p {
+	text-indent: 26px;
+	line-height: 2.2;
+}
+
+.riskSummary {
+	margin-bottom: 10px;
+	padding: 10px 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #999;
+	text-indent: 0;
+	border-top: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+}
+
+.lead {
+	font-size: 18px;
+	text-indent: 0;
+}
+
+.indent {
+	text-indent: 0;
+}
+
+.signature {
+	font-size: 16px;
+	line-height: 48px;
+	text-indent: 0;
+}
+
+
+/*-----------------公告----------------*/
+
+.noticeTitle {
+	height: 60px;
+	line-height: 60px;
+	background-image: url(../images/ib8_bg.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+	padding-left: 45px;
+}
+
+.noticeContent {
+	padding: 40px 30px 25px;
+}
+
+.noticeList {
+	height: 120px;
+}
+
+.noticeList span {
+	color: #0065ff;
+	font-size: 16px;
+	line-height: 2.5;
+}
+
+.noticeCon {
+	height: 80px;
+	text-indent: 30px;
+	line-height: 2;
+	color: #999999;
+}
+
+.noticeConLeft {
+	width: 75%;
+	float: left;
+}
+
+.noticeConRight {
+	width: 25%;
+	float: right;
+	text-align: right;
+}
+
+.noticeDesBtn {
+	width: 200px;
+	height: 50px;
+	background-color: #ff6700;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+}
+
+.noticeTime {
+	color: #c2c2c2;
+	font-size: 16px;
+}
+
+
+/*------------------------------公告详情-------------------------------------*/
+
+.noticeDefaultBox {
+	width: 100%;
+	min-height: 130px;
+	border: 1px #dfe0e0 solid;
+	background-color: #fff;
+}
+
+.noticeDMainBox {
+	position: relative;
+	margin: 0 auto;
+	width: 1084px;
+	min-height: 30px;
+	padding-bottom: 50px;
+}
+
+.noticDHead {
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px #f2f2f2 solid;
+}
+
+.noticeDHTitle {
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 26px;
+	color: #333;
+	margin-top: 46px;
+}
+
+.noticeDHLtitle {
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 16px;
+	color: #c6c6c6;
+	margin-top: 10px;
+}
+
+.noticDMain {
+	padding: 10px 0 20px 0;
+	text-align: left;
+	font-size: 14px;
+	line-height: 30px;
+	text-indent: 24px;
+}
+
+
+/*--------------------activityPage--------------------------------*/
+
+
+/*活动*/
+
+.activityTitle {
+	height: 60px;
+	line-height: 60px;
+	background-image: url(../images/ib8_act.jpg);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+	padding-left: 45px;
+}
+
+.activityContent {
+	padding: 0px 40px 40px;
+}
+
+.activityList li {
+	padding-bottom: 38px;
+	border-bottom: 3px solid #f2f2f2;
+	height: 150px;
+	position: relative;
+	margin-top: 40px;
+}
+
+.activityList li span,
+.activityList li input {
+	position: absolute;
+}
+
+.activityList li span.act1 {
+	width: 230px;
+	height: 230px;
+	left: 0;
+	top: 0;
+}
+
+.activityList li span.act1 img {
+	width: 230px;
+	height: auto;
+}
+
+.activityList li span.act2 {
+	width: 560px;
+	height: 24px;
+	line-height: 24px;
+	left: 250px;
+	top: 0;
+	color: #4280ff;
+	font-size: 24px;
+}
+
+.activityList li span.act3 {
+	width: 70px;
+	height: 14px;
+	line-height: 14px;
+	left: 250px;
+	top: 38px;
+	color: #999;
+	font-size: 14px;
+}
+
+.activityList li span.act4 {
+	width: 70px;
+	height: 14px;
+	line-height: 14px;
+	left: 250px;
+	top: 60px;
+	color: #999;
+	font-size: 14px;
+}
+
+.activityList li span.act5 {
+	width: 70px;
+	height: 14px;
+	line-height: 14px;
+	left: 250px;
+	top: 84px;
+	color: #999;
+	font-size: 14px;
+}
+
+.activityList li span.act6 {
+	width: 460px;
+	height: 14px;
+	line-height: 14px;
+	left: 330px;
+	top: 38px;
+	color: #999;
+	font-size: 14px;
+}
+
+.activityList li span.act7 {
+	width: 460px;
+	height: 14px;
+	line-height: 14px;
+	left: 330px;
+	top: 60px;
+	color: #999;
+	font-size: 14px;
+}
+
+.activityList li span.act8 {
+	width: 486px;
+	height: 66px;
+	line-height: 22px;
+	left: 330px;
+	top: 80px;
+	color: #999;
+	font-size: 14px;
+}
+
+.activityList li span.act9 {
+	width: 200px;
+	height: 66px;
+	line-height: 22px;
+	right: 280px;
+	top: 44px;
+	color: #999;
+	font-size: 14px;
+	text-align: right;
+}
+
+.activityList li span.act9 b {
+	font-size: 22px;
+	color: #ff6700;
+	margin: 0 8px;
+	font-weight: normal;
+}
+
+.activityList li input {
+	width: 200px;
+	height: 52px;
+	background-color: #ff6700;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	right: 0;
+	top: 26px;
+	border: 0;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.activityList li span.act10 {
+	width: 200px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	color: #999;
+	right: 0;
+	top: 108px;
+	font-size: 14px;
+}
+
+.activityList li span.act10 b {
+	color: #ff6700;
+	margin: 0 8px;
+	font-weight: normal;
+}
+
+
+/*-----------------------activityDefault--------------------------*/
+
+.activityDBox {
+	background-color: #fff;
+	border: 1px #DFE0E0 solid;
+	width: 1180px;
+	position: relative;
+	min-height: 30px;
+	margin: 10px auto 50px auto;
+}
+
+.actHead {
+	height: 80px;
+	line-height: 80px;
+	text-indent: 45px;
+	width: 100%;
+	border-bottom: 2px #FF6700 solid;
+}
+
+.actMain {
+	min-height: 80px;
+	padding: 30px 0;
+}
+
+.actLineT {
+	width: 990px;
+	border-left: 4px #FF6700 solid;
+	padding-left: 10px;
+	margin: 20px 0px 20px 45px;
+	font-size: 20px;
+	line-height: 20px;
+	height: 20px;
+}
+
+.actLineM {
+	width: 990px;
+	margin: 10px 0px 10px 45px;
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+	min-height: 20px;
+	padding-left: 10px;
+}
+
+
+/*------------------------平台介绍-------------------------*/
+
+
+/*平台介绍*/
+
+.introDot {
+	margin: 0px 0px 20px 0px
+}
+
+.introTitle {
+	height: 60px;
+	line-height: 60px;
+	color: #525250;
+	border-bottom: 2px solid #ff6700;
+	font-size: 18px;
+	text-indent: 45px;
+	width: 100%;
+}
+
+.introContent {
+	padding: 40px 30px 25px;
+}
+
+.rtjl_l {
+	padding-left: 45px;
+	font-size: 14px;
+}
+
+.rtjll {
+	height: 16px;
+}
+
+.rtjll .startLine {
+	width: 80px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	background-image: url(../images/ib8_219.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-size: 16px 16px;
+}
+
+.rtjll .startLine>.startNum {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 80px;
+	height: 16px;
+	background-image: url(../images/ib8_29.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-size: 16px 16px;
+}
+
+.introDTitle {
+	color: #ff6700;
+	font-size: 20px;
+	padding-left: 10px;
+	border-left: 2px solid #ff6700;
+	margin-bottom: 20px;
+}
+
+.tabale {
+	width: 100%;
+}
+
+.tabale td {
+	border: 1px solid #C2C2C2;
+	height: 50px;
+	padding-left: 30px;
+	color: #666666;
+}
+
+.tableHeight {
+	height: 80px;
+}
+
+.tableTitle {
+	color: #999999;
+	font-size: 16px;
+	background-color: #fafafa;
+}
+
+.dialogBox {
+	background-image: url(../images/dialog.png);
+	background-repeat: no-repeat;
+	background-size: 140px 27px;
+	color: #ff6700;
+	font-size: 14px;
+	padding: 5px 5px 5px 10px;
+	margin-left: 20px;
+}
+
+.W85 {
+	background-size: 85px 27px;
+}
+
+.W71 {
+	background-size: 71px 27px;
+}
+
+.W112 {
+	background-size: 112px 27px;
+}
+
+.W120 {
+	background-size: 120px 27px;
+}
+
+.introDes {
+	text-indent: 30px;
+	color: #666666;
+	line-height: 30px;
+}
+
+.introActive {
+	color: #ff6700;
+}
+
+.introTabBox {
+	width: 1096px;
+	position: relative;
+	margin: 0 auto;
+	min-height: 80px;
+}
+
+.introTabBox ul.introHEAD {
+	border-bottom: 2px #DEDEDE solid;
+	width: 100%;
+	height: 40px;
+	position: relative;
+	display: inline-block;
+}
+
+.introTabBox ul.introHEAD li {
+	list-style: none;
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-indent: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.introTabBox ul.introHEAD li.introHactive {
+	border-bottom: 2px #ff6700 solid;
+}
+
+.introTabBox ul.introMAIN {
+	min-height: 80px;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+.introTabBox ul.introMAIN li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	min-height: 40px;
+	display: none;
+	text-indent: 5px;
+	font-size: 16px;
+	color: #666;
+	line-height: 30px;
+}
+
+.introDetail {
+	min-height: 30px;
+	font-size: 16px;
+	color: #666;
+	line-height: 35px;
+	text-indent: 0;
+}
+.introDLine{
+	height: 94px;
+	border-bottom: 1px #ececec solid;
+	width: 100%;
+	line-height: 94px;
+	font-size: 20px;
+	color: #666;
+	text-indent: 20px;
+}
+.introright{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px #FF6700 solid;
+	border-radius: 5px;
+	color: #FF6700;
+	margin-top: 20px;
+	text-indent: 0;
+}
+
+ 

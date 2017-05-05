@@ -1,0 +1,15 @@
+{
+  "name": "ib8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.1.0"
+  }
+}

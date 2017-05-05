@@ -1,0 +1,58 @@
+</html>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/GE.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body class="bgf7">
+		<nav id="navhead">
+			@@include("../src/navhead.html")  
+		</nav>
+		<header id="header">
+			@@include("../src/header.html")  
+		</header>
+		<section id="slide">
+			@@include("../src/slide.html")  
+		</section>
+		<section id="breadCrumb">
+			@@include("../src/breadCrumb.html",{
+				"index": "IB8网",
+				"activity": "活动",
+				"activityDefault": "活动详情",
+				"notice": "公告",
+				"noticeDefault": "公告详情",
+				"ptjs": "平台推荐",
+				"riskTip": "风险提示",
+		        "breadCrumb": {  
+		            "indexURL": "index.html",  
+		            "activityURL": "activity.html",
+		            "activityDefaultURL": "activityDefault.html",
+		            "noticeURL": "notice.html",  
+		            "noticeDefaultURL": "noticeDefault.html",  
+		            "ptjsURL": "ptjs.html",
+		            "riskTipURL": "riskTip.html"
+		        }  
+			})  
+		</section>
+		<section id="serachBox">
+			@@include("../src/searchBar.html")  
+		</section>
+		<section id="maxBox">
+			<div class="mainbox">
+				当前页面内容区域
+			</div>	 
+		</section>
+		<section id="paging">
+			@@include("../src/paging.html")  
+		</section>
+		<footer id="footer">
+			@@include("../src/footer.html")  
+		</footer>
+	</body>
+
+</html>
